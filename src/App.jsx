@@ -1,17 +1,20 @@
 import { useState } from 'react'
-// import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Contact from './components/Contact';
+import About from './components/About';
+// import Contact from './components/Contact';
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
     <div>
       <Navbar/>
-      {/* <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1> */}
-      {/* <ParticlesComponent /> */}
+      <Main/>
+      <About/>
+      <Contact/>
     </div>
-    
   )
 }
 

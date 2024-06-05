@@ -1,0 +1,24 @@
+.field-labels{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    flex-direction: column;
+    flex:content;
+    padding: 0.75rem;
+    font-family: 'Trebuchet-MS',sans-serif;
+    font-variant: small-caps;
+    display: flex;
+    font-style: italic;
+    object-position: center;
+    font-size: 1rem;
+    text-align: left;
+    color: azure;
+}
+
+.field-text{
+    color: black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-family: 'Trebuchet-MS',sans-serif;
+    font-variant: small-caps;
+    flex: auto;
+}

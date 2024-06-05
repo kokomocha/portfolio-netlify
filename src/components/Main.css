@@ -1,0 +1,41 @@
+.text-styles{
+
+    font-family: 'Trebuchet MS', sans-serif;
+    color: azure;
+    font-size: xx-large;
+    font-weight: 400;
+    font-variant: small-caps;
+    display: flex;
+    object-position: center;
+
+}
+
+.block{
+
+    position: absolute;
+    display: inline-block;
+    top:50%;
+    right: 30%,
+
+}
+
+.overlay{
+    
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: rgba(40, 62, 74, 0.7);
+    padding: '100px';
+    border-radius: 50px;
+    height:40rem;
+      
+}
+
+.data-element{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+      
+}
